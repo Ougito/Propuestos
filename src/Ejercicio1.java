@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Ejercicio1 {
 
     public static void main(String[] args) {
 
@@ -25,9 +25,14 @@ public class Main {
 
         int producto = num1 * num2;
         double potencia =  Math.pow(num1, num2);
-        int division = num1/num2;
         System.out.println("El resultado del producto es: " + producto);
         System.out.println("El resultado de la potencia es: " + potencia);
-        System.out.println("El resultado de la division es: " + division);
+        int division;
+        if (num2 == 0) {
+            System.out.println("La división por cero no se puede realizar.");
+        } else {
+            division = num1/num2;
+            System.out.println("El resultado de la division es: " + division);
+        }
     }
 }
