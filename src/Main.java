@@ -11,9 +11,9 @@ public class Main {
         System.out.print("Introduzca el segundo número: ");
         num2 = input.nextInt(); input.nextLine();
         int suma = num1 + num2;
-        System.out.println("El resultado de la suma es: " + suma);
 
         // suma resta producto y potencia y division
+        System.out.println("El resultado de la suma es: " + suma);
 
     }
 }
