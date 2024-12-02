@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+    /*
+    Realiza un programa que lea dos números, calcule y muestre el valor de su suma, resta, producto,
+    potencia y división. (Ten en cuenta que no se puede dividir por cero).
+     */
+
 public class Ejercicio1 {
 
     public static void main(String[] args) {
