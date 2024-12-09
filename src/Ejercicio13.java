@@ -15,9 +15,9 @@ public class Ejercicio13 {
         do {
             System.out.print("Introduce números no nulos (finaliza con un 0): ");
             num = input.nextInt();
+            input.nextLine(); // limpiamos posibles saltos de línea no recogidos por nextInt()
             if (num > 0) positivos++;
             else if (num < 0) negativos++;
-
         } while (num != 0);
 
         System.out.printf("%n%d son positivos%n%d son negativos", positivos, negativos);
